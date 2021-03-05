@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CS496_P1_T3</string>
+    <string name="title_home">Contacts</string>
+    <string name="title_dashboard">Photos</string>
+    <string name="title_notifications">Calculator</string>
+    <string name="facebook_app_id">167683200503374</string>
+    <string name="fb_login_protocol_scheme">fb167683200503374</string>
+
+</resources>

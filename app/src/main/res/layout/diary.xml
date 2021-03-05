@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500dp"
+    android:layout_height="600dp"
+    android:background="#fff">
+
+    <EditText
+        android:id="@+id/Script"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Script"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="408dp"
+        android:layout_height="439dp"
+        android:layout_below="@id/contacts"
+
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:text="주소록"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <ImageButton
+        android:id="@+id/Goback"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="16dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="@+id/listview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <ImageButton
+        android:id="@+id/Upload"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+
+        android:background="@drawable/contacts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:text="Successful?"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <ImageButton
+        android:id="@+id/Download"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+</android.support.constraint.ConstraintLayout>
